@@ -2,8 +2,8 @@ import React from 'react';
 
 export default function Resume() {
   return (
-    <div>
-      <h1>About Page</h1>
+    <div className="col-md-5 mx-auto">
+      <h1>About Me</h1>
       <p>
         Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
         Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed

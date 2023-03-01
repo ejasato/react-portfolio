@@ -8,9 +8,9 @@ import React from 'react';
 
 export default function Contact() {
   return (
-    <div >
+    <div gap={2} className="col-md-5 mx-auto">
       <h1 className="mb-3">Contact Page</h1>
-    <FloatingLabel
+      <FloatingLabel
         controlId="floatingInput"
         label="Name"
         className="mb-3"

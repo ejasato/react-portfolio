@@ -9,27 +9,24 @@ body {
     font-family: Work Sans;
     text-align: center;
     background-color: var(--lapis-lazuli);
-
+    color: var(--night);
 }
 
-.navbar,
-.navbar-brand {
-    text-align: center;
-    display: block;
-    width: 100%;
+.navbar{
     background-color: var(--powder-blue);
-
+    color: var(--night);
 }
 
-div.navbar-brand {
-    padding-top: 2em;
-    margin-bottom: 2em;
+.navbar-brand {
 
+    background-color: var(--powder-blue);
+    font-size: 30px;
 }
 
-.navbar .navbar-brand>.navbar-item,
-.navbar .navbar-brand .navbar-link {
-    display: inline-block;
+.card {
+    align-items: center;
+    justify-content: center;
+    background-color: lightgrey;
 }
 
 main {
@@ -39,27 +36,11 @@ main {
     margin-right: 30em;
 }
 
-.my-pic {
-    clip-path: circle();
-    width: 250px;
-}
-
-.label {
-    text-align: left;
-}
-
-footer.footer {
+footer {
     background-color: var(--powder-blue);
-}
-
-
-
-
-@media only screen and (max-width: 1024px) {
-    main {
-        margin-top: 2em;
-        margin-bottom: 2em;
-        margin-left: 2em;
-        margin-right: 2em;
-    }
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: var(--night);
 }
