@@ -9,10 +9,10 @@ function Footer() {
             <Nav.Link href="https://github.com/ejasato">GITHUB</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="link-1">Link</Nav.Link>
+            <Nav.Link eventKey="https://www.linkedin.com/in/eric-asato-567167263/">LinkedIn</Nav.Link>
           </Nav.Item>
           <Nav.Item>
-            <Nav.Link eventKey="link-2">Link</Nav.Link>
+            <Nav.Link eventKey="link-2">Twitter</Nav.Link>
           </Nav.Item>
         </Nav>
       </footer>

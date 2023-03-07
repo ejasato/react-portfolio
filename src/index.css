@@ -29,6 +29,11 @@ body {
     background-color: lightgrey;
 }
 
+.imgGithub {
+ width: 30px;
+ height: 30px;
+}
+
 main {
     margin-top: 2em;
     margin-bottom: 2em;
