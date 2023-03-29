@@ -49,8 +49,8 @@ export default function Project(props) {
            </Col>
            <Col className="d-flex justify-content-center">
            <Card style={{ width: '25rem'}} className="justify-content-center bg-dark text-white">
-               <Card.Img variant="top" src="./images/social network.jpg" alt="Card image" />
-                 <Card.Title><Card.Link href="https://github.com/begirlz/RoadSage">Road-Sage</Card.Link><Card.Link href = "https://protected-crag-00303.herokuapp.com/"><img class = "imgGithub" src = "./images/Homepage.png" alt = "Librarian"/></Card.Link></Card.Title>
+               <Card.Img variant="top" src="./images/Homepage.png" alt="Card image" />
+                 <Card.Title><Card.Link href="https://github.com/begirlz/RoadSage">Road-Sage</Card.Link><Card.Link href = "https://protected-crag-00303.herokuapp.com/"><img class = "imgGithub" src = "./images/github-mark-white.png" alt = "Librarian"/></Card.Link></Card.Title>
                  <Card.Text>MERN</Card.Text>
              </Card>
            </Col>
